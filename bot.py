@@ -10,6 +10,7 @@ print('Bot Started...')
 API_TOKEN="YOUR_BOT_TOKEN"
 
 def handleMessage(update, context):
+    #Bearer blablabla
     telegram_token = "YOUR_TELEGRAM_TOKEN"
     
     msg = update.message.text
