@@ -11,7 +11,7 @@ API_TOKEN="YOUR_BOT_TOKEN"
 
 def handleMessage(update, context):
     #Bearer blablabla
-    telegram_token = "YOUR_TELEGRAM_TOKEN"
+    telegram_token = "YOUR_TRUECALLER_TOKEN"
     
     msg = update.message.text
     msg.replace(" ", "")
